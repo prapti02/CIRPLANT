@@ -55,6 +55,10 @@ python trainval_oscar.py --dataset cirr --usefeat nlvr-resnet152_w_empty --max_e
 
 ## Citation
 Please consider citing this paper if you use the code:
+
+## Results
+
+![Results](Results/Recall_results.png)
 ```bibtex
 @inproceedings{Liu:ICCV2021,
   author    = {Zheyuan Liu and
@@ -66,8 +70,4 @@ Please consider citing this paper if you use the code:
   year      = {2021}
 }
 
-
-## Results
-
-![Results](Results/Recall_results.png)
 ```
