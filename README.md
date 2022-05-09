@@ -53,21 +53,8 @@ python trainval_oscar.py --dataset cirr --usefeat nlvr-resnet152_w_empty --max_e
 
 **Two `.json` files** will be saved to the output directory, one for Recall validation, the other for Recall_Subset. Visit our test server and upload it to get results.
 
-## Citation
-Please consider citing this paper if you use the code:
-
 ## Results
 
 ![Results](Results/Recall_results.png)
-```bibtex
-@inproceedings{Liu:ICCV2021,
-  author    = {Zheyuan Liu and
-               Cristian Rodriguez and
-               Damien Teney and
-               Stephen Gould},
-  title     = {Image Retrieval on Real-life Images with Pre-trained Vision-and-Language Models},
-  booktitle = {ICCV},
-  year      = {2021}
-}
 
 ```
