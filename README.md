@@ -30,18 +30,6 @@ python trainval_oscar.py --dataset cirr --usefeat nlvr-resnet152_w_empty --max_e
 
 ```
 
-To use pre-trained weights to reproduce results in our [ICCV 2021 paper](https://arxiv.org/abs/2108.04024), please see [DOWNLOAD.md](DOWNLOAD.md).
-
-## Developing
-To develop based on our code, we highly recommend first getting familar with Pytorch Lightning.
-
-You can train models as we have described above, the results will be saved to a folder of your choosing.
-
-To inspect results, we recommend using Tensorboard and load the saved `events.out.tfevents` file. Alternatively, you can also find all information dumped to a text file `log.txt`.
-
-Pytorch Lightning automatically saves the latest checkpoint `last.ckpt` in the same output directory. Additionally, you can also specify a certain validation score name `--log_by [...]` to monitor, which enables saving of the best checkpoint.
-
-
 ## Results
 
 ![Results](Results/Recall_results.png)
